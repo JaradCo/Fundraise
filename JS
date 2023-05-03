@@ -1,0 +1,6 @@
+const slider = document.getElementById("fundraising-slider");
+const goalSpan = document.getElementById("fundraising-goal");
+
+slider.addEventListener("input", () => {
+	goalSpan.textContent = slider.value;
+});
